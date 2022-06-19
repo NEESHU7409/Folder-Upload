@@ -1,0 +1,25 @@
+#custom-button{
+padding: 10px;
+color: white;
+background-color: #009578;
+border: 1px solid #000;
+border-radius: 5px;
+cursor: pointer;
+}
+
+#custom-button:hover{
+    background-color: #00b28f;
+
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th,td{
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){
+    background-color: lightgrey;
+}
